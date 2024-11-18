@@ -818,3 +818,26 @@ button:hover {
     margin-bottom: 15px;
   }
 }
+
+
+/* Default styles */
+.section__height {
+    margin: 20px;  /* Example margin for larger screens */
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+    .section__height {
+        margin: 10px;  /* Adjust margin for smaller screens */
+    }
+
+    .box-grid {
+        grid-template-columns: 1fr 1fr;  /* Adjust grid layout for smaller screens */
+    }
+    
+    /* Optional: Adjust icon sizes and other properties for better mobile display */
+    .box-grid i, .box-grid img {
+        font-size: 24px;  /* Reduce icon size */
+        width: 40px;  /* Set a fixed width for images if needed */
+    }
+}
