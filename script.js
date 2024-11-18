@@ -134,7 +134,7 @@ document.getElementById("contactForm").addEventListener("submit", function (even
     };
 
     // Send the email using EmailJS
-    emailjs.send("service_jxs9ewp", "template_9vdg83y", templateParams)
+    emailjs.send("service_jxs9ewp", "template_nghvcfb", templateParams)
         .then(function (response) {
             displayMessage("Thank you for contacting us, " + name + ". We'll get back to you shortly.", "success");
             document.getElementById("contactForm").reset(); // Reset the form
