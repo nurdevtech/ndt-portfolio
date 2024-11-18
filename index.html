@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NDT Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="assets/images/icon-ndt.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+        <!--=============== NAV ===============-->
+        <nav class="nav" id="nav">
+            <div class="nav__menu container" id="nav-menu">
+                <div class="nav__shape"></div>
+        
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+        
+                <div class="nav__data">
+                    <div class="nav__mask">
+                        <!-- Change your profile picture -->
+                        <img src="assets/images/icon-ndt.png" alt="" class="nav__img">
+                    </div>
+        
+                    <span class="nav__greeting">Hi, I'm</span>
+                    <h1 class="nav__name">NurDev <br> Tech
+                    </h1>
+                </div>
+        
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home'></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-bookmark'></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-detail'></i> Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!--=============== MAIN ===============-->
+        <main class="main" id="main">
+            <!--=============== HEADER ===============-->
+            <header class="header" id="header">
+                <nav class="header__nav container">
+                    <a href="#" class="header__logo">
+                        NDT
+                    </a>
+        
+                    <!-- Toggle button -->
+                    <div class="header__toggle" id="header-toggle">
+                        <i class='bx bx-grid-alt'></i>
+                    </div>
+                </nav>
+            </header>
+        
+        
+            <!-- When inserting your content into sections, remove the section__height class -->
+            <!--=============== HOME ===============-->
+            <section class="section section__height container" id="home">
+                <h1 class="span-l">Hello, I'm </h1><h1><span id="animatedText"></span></h1>
+                <p style="margin-bottom: 10px;">I create websites, mobile apps, and solutions that bring ideas to life.</p>
+                <a href="#contact" target="_blank"><button class="btn">Hire Me</button></a>            
+                
+            </section>
+        
+            <!--=============== ABOUT ===============-->
+            <section class="section section__height container" id="about">
+                <h1>ABOUT</h1>
+                <p>I'm NurDevTech, a passionate Full Stack Developer specializing in creating innovative websites,mobile apps,chat bots,AI. With a
+                focus on user experience and clean, efficient code, I aim to bring your ideas to life. Whether it's building a
+                responsive web app or designing a seamless mobile experience, I'm dedicated to delivering top-quality solutions</p>
+                <a href=""><button class="btn">Download Resume</button></a>
+            </section>
+        
+            <!--=============== SKILLS ===============-->
+            <section class="section section__height container" id="skills">
+                <h1>SKILLS</h1>
+                <div class="box_list">
+                    <div class="box-grid">
+                        <div class="html"><i class="fa-brands fa-html5"></i></div>
+                        <div class="css"><i class="fa-brands  fa-css3-alt"></i></div>
+                        <div class="js"><i class="fa-brands  fa-js-square"></i></div>
+                        <div class="py"><i class="fa-brands  fa-python"></i></div>
+                        <div class="rt"><i class="fa-brands  fa-react"></i></div>
+                        <div class="nd"><i class="fa-brands  fa-node"></i></div>
+                        <div class="html"><i class="fab fa-git-alt"></i></div>
+                        <div class="py"><i class="fas fa-code"></i></div>
+                        <div class="nd"><i class="fas fa-atom"></i></div>
+                        <div class="vs"><i class="fas fa-project-diagram"></i></div>
+                        <div class="rt"><i class="fas fa-database"></i></div>
+                        <div class="rt"><img src="assets/images/flutter.png"></img></div>
+                    </div>
+                </div>
+            </section>
+        
+            <!--=============== CONTACT ===============-->
+            <section class="section section__height container" id="contact">
+                <h1>CONTACT</h1>
+
+                <div class="form-section">
+                    <h2>Get In Touch:</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button class="btn" type="submit">Send Message</button>
+                    </form>
+            </section>
+
+            <footer>
+                <p>&copy; 2024 NDT Portfolio</p>
+                <div class="social-links">
+                    <a href="https://github.com/nurdevtech" target="_blank" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/nur-devtech-6a9650339" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://youtube.com/nurdevtech" target="_blank" class="social-icon">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://instagram.com/nurdevtech" target="_blank" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </footer>
+        </main>
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>
