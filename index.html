@@ -169,8 +169,7 @@
             document.getElementById('contact-form').addEventListener('submit', function(event) {
                 event.preventDefault();
                 // these IDs from the previous steps
-                emailjs.send("service_jxs9ewp","template_nghvcfb");
-                emailjs.sendForm('contact_service', 'contact_form', this)
+                emailjs.sendForm("service_jxs9ewp","template_nghvcfb", this);
                     .then(() => {
                         console.log('SUCCESS!');
                     }, (error) => {
