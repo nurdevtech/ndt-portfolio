@@ -844,7 +844,7 @@ input[type="submit"]:active:after {
 }
 
 /* Mobile-specific styles */
-@media (max-width: 768px) {
+@media (max-width: 868px) {
     .section__height {
         margin: 10px;  /* Adjust margin for smaller screens */
     }
