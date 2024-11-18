@@ -166,17 +166,18 @@
     </script>
     <script type="text/javascript">
         window.onload = function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-                // these IDs from the previous steps
-                emailjs.sendForm("service_jxs9ewp","template_nghvcfb", this);
-                    .then(() => {
-                        console.log('SUCCESS!');
-                    }, (error) => {
-                        console.log('FAILED...', error);
-                    });
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        console.log("Form data being sent:", new FormData(this));
+        emailjs.sendForm('service_jxs9ewp', 'template_nghvcfb', this)
+            .then(() => {
+                console.log('SUCCESS!');
+            }, (error) => {
+                console.log('FAILED...', error);
             });
-        }
+    });
+};
+
     </script>
 </body>
 </html>
