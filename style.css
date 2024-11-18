@@ -1,3 +1,4 @@
+
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
@@ -72,8 +73,8 @@ img {
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
     max-width: 1324px;
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .section {
@@ -840,7 +841,8 @@ input[type="submit"]:active:after {
 
 /* Default styles */
 .section__height {
-    margin: 15px;  /* Example margin for larger screens */
+    margin: 10px;
+    margin-right: 0;/* Example margin for larger screens */
 }
 
 /* Mobile-specific styles */
