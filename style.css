@@ -840,13 +840,13 @@ input[type="submit"]:active:after {
 
 /* Default styles */
 .section__height {
-    margin: 20px;  /* Example margin for larger screens */
+    margin: 15px;  /* Example margin for larger screens */
 }
 
 /* Mobile-specific styles */
-@media (max-width: 968px) {
+@media (max-width: 768px) {
     .section__height {
-        margin: 10px;  /* Adjust margin for smaller screens */
+        margin: 5px;  /* Adjust margin for smaller screens */
     }
 
     .box-grid {
