@@ -771,53 +771,6 @@ button:hover {
     }
 }
 
-/* Стили для мобильных устройств */
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 14px; /* Уменьшение шрифта для мобильных */
-  }
-
-  .container {
-    padding: 10px; /* Уменьшение отступов */
-  }
-
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Выравнивание заголовка по центру */
-  }
-
-  .nav-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Размещение ссылок по центру */
-  }
-
-  .card {
-    width: 100%; /* Карточки на мобильных устройствах занимают всю ширину */
-    margin-bottom: 20px; /* Отступы между карточками */
-  }
-
-  .footer {
-    text-align: center; /* Выравнивание текста футера по центру */
-  }
-}
-
-/* Для планшетов */
-@media screen and (max-width: 1024px) {
-  .container {
-    padding: 20px; /* Увеличение отступов для планшетов */
-  }
-
-  .nav-links {
-    flex-direction: row; /* Горизонтальное расположение ссылок */
-  }
-
-  .card {
-    width: 45%; /* Карточки занимают 45% ширины */
-    margin-bottom: 15px;
-  }
-}
 
 
 /* Default styles */
